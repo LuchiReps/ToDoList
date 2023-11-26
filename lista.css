@@ -1,8 +1,23 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #b476e0, #e869c0);
+    display: flex;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    margin: auto;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
