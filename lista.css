@@ -21,3 +21,67 @@
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
+
+.todo-app h2 {
+    color: rgb(108, 145, 231);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 i {
+    width: 30px;
+    margin-left: 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: rgb(148, 179, 249);
+    color: rgb(40, 37, 37);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 35px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(./download.png);
+    background-size: cover;
+    background-position: center;
+    top: 4px;
+    left: 16px;
+}
